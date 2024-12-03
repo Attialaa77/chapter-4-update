@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alaa Attia's portfolio showcasing skills, projects, and contact details.">
+    <title>Alaa Attia | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Alaa Attia</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>Hi, I am Alaa Attia. A 21-year-old Computer Programming and Analysis student at Humber College.</p>
+        <p>My passion lies in web development, automation, and creating innovative solutions that improve daily life.</p>
+        <p>Interests: Fitness, Yoga, Healthy Cooking, Wellness, and Art.</p>
+        <p>Goals: To grow as a developer and contribute to impactful projects.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project" data-category="javascript">
+            <h3>My Workout Web</h3>
+            <p>Explore a dynamic workout web application.</p>
+            <a href="https://attialaa77.github.io/Myy-workout-web/" target="_blank">Live Page</a> | <a href="https://github.com/attialaa77/Myy-workout-web" target="_blank">GitHub Repo</a>
+
+            <p>after done this course</p>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*zhcs1srqhlYGjqXy" alt="Description of Image" width="500" height="400">
+
+        </div>
+        <div class="project" data-category="python">
+            <h3>Python Automation Script</h3>
+            <p>Automates repetitive tasks for efficiency.</p>
+            <a href="https://github.com/attialaa77/python-automation-script" target="_blank">GitHub Repo</a>
+        </div>
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="javascript">JavaScript</button>
+        <button class="filter-btn" data-category="python">Python</button>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> JavaScript, Python, Java</li>
+            <li><strong>Web Development:</strong> HTML, CSS, React</li>
+            <li><strong>Tools & Technologies:</strong> Git, Docker, VS Code</li>
+            <li><strong>Soft Skills:</strong> Problem-solving, Teamwork, Communication</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Alaa Attia</p>
+        <p>Connect with me on <a href="https://linkedin.com/in/attialaa" target="_blank">LinkedIn</a> | <a href="https://github.com/attialaa77" target="_blank">GitHub</a></p>
+    </footer>
+
+    <button id="toggleTheme">Toggle Dark Mode</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
